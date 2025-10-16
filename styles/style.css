@@ -1,0 +1,36 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+  margin-inline: auto;
+}
+.section-container {
+  padding-inline: 1rem;
+  padding-block: 4rem;
+
+  @media (max-width: 640px) {
+    padding-inline: 1.5rem;
+  }
+
+  @media (max-width: 1024px) {
+    padding-inline: 2rem;
+  }
+}
+
+.container {
+  width: 100%;
+  @media (width >= 40rem) {
+    max-width: 40rem;
+  }
+  @media (width >= 48rem) {
+    max-width: 48rem;
+  }
+  @media (width >= 64rem) {
+    max-width: 64rem;
+  }
+  @media (width >= 80rem) {
+    max-width: 80rem;
+  }
+  @media (width >= 96rem) {
+    max-width: 96rem;
+  }
+}
